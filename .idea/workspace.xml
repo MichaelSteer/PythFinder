@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="328f2e6e-0acc-4fc5-add2-2b5d006ab0cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/PythFinder.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythfinder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythfinder_cpp.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythfinder_cpp/pythfinder_cpp.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythfinder_cpp/pythfinder_cpp.vcxproj.filters" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythfinder/graph/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythfinder/graph/directed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythfinder/graph/graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythfinder/graph/undirected.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythfinder/solver/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,6 +15,25 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="graph.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythfinder/graph/graph.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="directed.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythfinder/graph/directed.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="undirected.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pythfinder/graph/undirected.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,6 +44,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pythfinder/graph.py" />
+        <option value="$PROJECT_DIR$/pythfinder/graph/graph.py" />
+        <option value="$PROJECT_DIR$/pythfinder/graph/directed.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1008" />
@@ -54,6 +77,18 @@
               <item name="PythFinder" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythFinder" type="462c0819:PsiDirectoryNode" />
               <item name="pythfinder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="pythfinder" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythFinder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythFinder" type="462c0819:PsiDirectoryNode" />
+              <item name="pythfinder" type="462c0819:PsiDirectoryNode" />
+              <item name="solver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -80,12 +115,22 @@
   <component name="SvnConfiguration">
     <configuration />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2208" height="1218" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32944345" />
-      <window_info anchor="bottom" id="Python Console" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32944345" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32944345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -99,7 +144,54 @@
       <window_info anchor="bottom" id="TODO" order="6" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythfinder/graph.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythfinder/graph/graph.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythfinder/graph/directed.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythfinder/graph/undirected.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
